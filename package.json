@@ -1,0 +1,19 @@
+{
+  "name": "hbo-max",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sync": "browser-sync start --server --files \"**/*\"",
+    "dev": "postcss tailwind.css --output output.css",
+    "watch:dev": "nodemon -x npm run dev -w tailwind.config.js -w tailwind.css",
+    "watch": "run-p watch:dev sync"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
