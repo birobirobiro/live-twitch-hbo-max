@@ -3,12 +3,16 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'spider-man': "url('/img/background.jpg')"
+        'spider-man': "url('/img/background.jpg')",
+        'rrr': "url('/img/movie/background.jpg')"
       },
       fontFamily: {
-        'gilroy': ['Gilroy-Medium', 'sans-serif']
-      }
+        'gilroy-medium': ['Gilroy-Medium', 'sans-serif'],
+        'gilroy-bold': ['Gilroy-Bold', 'sans-serif'],
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ],
 }
