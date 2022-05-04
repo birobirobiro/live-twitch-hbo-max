@@ -557,10 +557,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-radius: 0.5rem;
 }
 
-.rounded-sm {
-  border-radius: 0.125rem;
-}
-
 .rounded-xl {
   border-radius: 0.75rem;
 }
@@ -589,27 +585,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .from-gray-200 {
   --tw-gradient-from: #e5e7eb;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(229 231 235 / 0));
-}
-
-.from-gray-200\/50 {
-  --tw-gradient-from: rgb(229 231 235 / 0.5);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(229 231 235 / 0));
-}
-
-.via-gray-400 {
-  --tw-gradient-stops: var(--tw-gradient-from), #9ca3af, var(--tw-gradient-to, rgb(156 163 175 / 0));
-}
-
-.via-gray-400\/50 {
-  --tw-gradient-stops: var(--tw-gradient-from), rgb(156 163 175 / 0.5), var(--tw-gradient-to, rgb(156 163 175 / 0));
-}
-
-.to-gray-600 {
-  --tw-gradient-to: #4b5563;
-}
-
-.to-gray-600\/50 {
-  --tw-gradient-to: rgb(75 85 99 / 0.5);
 }
 
 .bg-cover {
